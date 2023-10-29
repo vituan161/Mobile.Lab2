@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { Pressable, StyleSheet } from "react-native";
 export default  styles = StyleSheet.create({
     container:{
         flexDirection:"row",
@@ -24,5 +24,6 @@ export default  styles = StyleSheet.create({
         borderColor: '#000000',
         borderWidth: 2,
         alignSelf:'stretch',
-    }
+    },
 });
+
